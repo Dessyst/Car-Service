@@ -12,6 +12,7 @@ public class Order {
     @ManyToOne
     private int ServiceId;
     private Date date;
+
     @Id
     @GeneratedValue
     private Long id;

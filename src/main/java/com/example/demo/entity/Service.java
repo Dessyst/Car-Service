@@ -11,6 +11,7 @@ public class Service {
     private Long id;
     private int price;
     private String name;
+
     public void setId(Long id) {
         this.id = id;
     }
