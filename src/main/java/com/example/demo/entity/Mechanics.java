@@ -20,4 +20,5 @@ public class Mechanics {
     public Long getId() {
         return id;
     }
+
 }

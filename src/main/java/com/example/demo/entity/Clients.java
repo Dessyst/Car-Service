@@ -13,7 +13,6 @@ public class Clients {
 
     private String EGN;
 
-
     public void setId(Long id) {
         this.id = id;
     }
@@ -21,4 +20,5 @@ public class Clients {
     public Long getId() {
         return id;
     }
+
 }
