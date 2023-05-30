@@ -12,8 +12,8 @@ public class Car {
     @GeneratedValue
     private Long id;
 
-    private String Model;
-    private String LicensePlate;
+    private String model;
+    private String licensePlate;
 
     @ManyToOne
     private Clients client;
