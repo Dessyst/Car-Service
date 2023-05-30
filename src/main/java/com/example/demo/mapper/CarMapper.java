@@ -15,5 +15,5 @@ public class CarMapper {
 
     CarResource toCarResource(Car car);
 
-    List<CarResource> toSubjectResources(List<Car> cars);
+    List<CarResource> toCarResources(List<Car> cars);
 }

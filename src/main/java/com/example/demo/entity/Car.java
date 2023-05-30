@@ -26,4 +26,7 @@ public class Car {
         return id;
     }
 
+    public void setCars(Object o) {
+
+    }
 }
