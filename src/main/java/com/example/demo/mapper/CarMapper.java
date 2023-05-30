@@ -7,8 +7,7 @@ import org.mapstruct.factory.Mappers;
 import java.util.List;
 
 
-@Mapper
-public class CarMapper {
+public interface CarMapper {
     CarMapper SUBJECT_MAPPER = Mappers.getMapper(CarMapper.class);
 
     Car fromCarResource(CarResource resource);

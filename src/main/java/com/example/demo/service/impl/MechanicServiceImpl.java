@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-public class MechanicServiceImpl {
+public class MechanicServiceImpl implements MechanicService {
     private final MechanicsRepository mechanicsRepository;
 
     @Override
